@@ -40,7 +40,7 @@ npm install
 npm run build
 ```
 3. Изменяем .env.examle на .env и заполняем необходимые настройки бд
-4. Генерируем ключ шифрования.
+4. Генерируем ключ шифрования
 ```bash
 php artisan key:generate
 ```
