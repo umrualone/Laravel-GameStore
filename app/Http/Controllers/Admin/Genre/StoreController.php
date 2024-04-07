@@ -3,7 +3,6 @@
 namespace App\Http\Controllers\Admin\Genre;
 
 use App\Http\Requests\GenreRequest;
-use App\Models\Genre;
 
 class StoreController extends BaseController
 {
@@ -11,7 +10,7 @@ class StoreController extends BaseController
     {
         $data = $request->validated();
 
-        Genre::firstOrCreate($data);
+        $this->service->store($data);
 
         return redirect()->route('admin.genre.index');
     }
