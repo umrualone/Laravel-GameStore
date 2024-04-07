@@ -52,7 +52,11 @@ php artisan migrate
 ```bash
 php artisan db:seed
 ```
-7. Запускаем проект
+7. Добавляем ссылку на картинки
+```bash
+php artisan storage:link
+```
+8. Запускаем проект
 ```bash
 php artisan serve
 ```
