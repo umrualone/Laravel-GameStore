@@ -19,7 +19,7 @@ ___
 * Поиск и фильтрация игр.
 
 ___
-<a id="sreenshots"></a>
+<a id="screenshots"></a>
 ## Скриншоты
 ![Image alt](img/1.png)
 ![Image alt](img/2.png) 
